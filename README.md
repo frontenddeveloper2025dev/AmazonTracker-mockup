@@ -65,3 +65,50 @@ La aplicación utiliza **web scraping** para revisar el estatus de los productos
   SMTP_PASSWORD
   SMTP_SERVER
   SMTP_PORT
+
+
+  🚀 Cómo correr en local
+# clonar repo
+git clone https://github.com/frontenddeveloper2025dev/AmazonTracker-mockup.git
+cd AmazonTracker-mockup
+
+# instalar dependencias
+pip install -r requirements.txt
+
+# iniciar app
+streamlit run app.py
+
+
+Abrir en navegador: http://localhost:8501.
+
+☁️ Deploy en Render
+
+Configuración usada en Render Web Service (Python):
+
+Build Command:
+
+pip install -r requirements.txt
+
+
+Start Command:
+
+streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+
+
+Plan: Starter (always-on).
+
+Demo en vivo 👉 amazontracker-mockup.onrender.com
+
+📌 Estado del Proyecto
+
+✅ Deploy activo y accesible públicamente.
+⚙️ Modo demo → notificaciones vía correo opcionales con variables SMTP.
+
+👩‍💻 Autor
+
+Proyecto desarrollado por Alejandra
+GitHub: @alejandrabarcena
+
+
+
+
